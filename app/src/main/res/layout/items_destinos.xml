@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/item_imagen_destino"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_location_on_24" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/item_nombre_destino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHINACOTA"
+                    android:textAlignment="center"
+                    android:textSize="30dp"
+                    android:textStyle="bold"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/item_descripcion_destino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Distancia: 40 kilómetros de Cúcuta\nTemperatura: 22 grados Celsius\nAltura:  600 a los 3200 m s. n. m\nPoblación es de 15 378 habitantes"
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

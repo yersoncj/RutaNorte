@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ruta Norte</string>
+    <string name="txt_menu_destinos">DESTINOS</string>
+    <string name="txt_menu_gastronomia">GASTRONOMIA</string>
+    <string name="txt_menu_alojamiento">ALOJAMIENTO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_destinos">DESTINOS RUTA NORTE</string>
+    <string name="titulo_gastronomia">GASTRONOMÍA RUTA NORTE</string>
+    <string name="titulo_alojamiento">ALOJAMIENTO RUTA NORTE</string>
+</resources>

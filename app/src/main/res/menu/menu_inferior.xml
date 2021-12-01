@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_destinos"
+        android:title="@string/txt_menu_destinos"
+        android:icon="@drawable/ic_terrain_black_24dp"/>
+    <item
+        android:id="@+id/menu_gastronomia"
+        android:title="@string/txt_menu_gastronomia"
+        android:icon="@drawable/ic_local_dining_black_24dp"/>
+
+    <item
+        android:id="@+id/menu_alojamiento"
+        android:title="@string/txt_menu_alojamiento"
+        android:icon="@drawable/ic_hotel_black_24dp"/>
+</menu>
